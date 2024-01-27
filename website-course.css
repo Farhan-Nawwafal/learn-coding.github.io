@@ -1,0 +1,301 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Gill Sans MT;
+    background-color: #3CCF4E;
+}
+
+/* Pengaturan container */
+div.container {
+    width: 1000px;
+    height: 500px;
+    background-color: #DBE2EF;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+/* ----------------Pengaturan left-bar---------------- */
+div.container > div.left-bar{
+    width: 200px;
+    background-color: #313866;
+}
+
+div.container > div.left-bar > div.top-left-bar {
+    display: block;
+}
+
+/* Pengaturan top-left-bar */
+div.container > div.left-bar > div.top-left-bar > img {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    left: 65px;
+    top: 15px;    
+}
+
+div.container > div.left-bar > div.top-left-bar > p {
+    text-align: center;
+    color: white;
+}
+
+/* Pengaturan menu-bar */
+div.container > div.left-bar > div.menu-bar > div.icon-bar {
+    position: relative;
+}
+
+/* icon dan text home */
+div.container > div.left-bar > div.menu-bar > div.icon-bar > div.home:hover > div.garis-home{
+    position: absolute;
+    height: 25px;
+    border-left: 6px solid #9275e0;
+}
+
+div.container > div.left-bar > div.menu-bar > div.icon-bar > div.home > img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+div.container > div.left-bar > div.menu-bar > div.icon-bar > div.home > a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: -14px;
+    padding-left: 4px;
+}
+
+/* icon dan text menu */
+div.container > div.left-bar > div.menu-bar > div.icon-bar > div.menu:hover > div.garis-menu{
+    position: absolute;
+    height: 25px;
+    border-left: 6px solid #9275e0;
+}
+
+div.container > div.left-bar > div.menu-bar > div.icon-bar > div.menu > img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+div.container > div.left-bar > div.menu-bar > div.icon-bar > div.menu > a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: -15px;
+    padding-left: 4px;
+}
+
+/* icon dan text achievements */
+div.container > div.left-bar > div.menu-bar > div.icon-bar > div.achievements:hover > div.garis-achievements{
+    position: absolute;
+    height: 25px;
+    border-left: 6px solid #9275e0;
+}
+
+div.container > div.left-bar > div.menu-bar > div.icon-bar > div.achievements > img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+div.container > div.left-bar > div.menu-bar > div.icon-bar > div.achievements > a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: -15px;
+    padding-left: 4px;
+}
+
+/* icon dan text discuss */
+div.container > div.left-bar > div.menu-bar > div.icon-bar > div.discuss:hover > div.garis-discuss{
+    position: absolute;
+    height: 25px;
+    border-left: 6px solid #9275e0;
+}
+
+div.container > div.left-bar > div.menu-bar > div.icon-bar > div.discuss > img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+div.container > div.left-bar > div.menu-bar > div.icon-bar > div.discuss > a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: -15px;
+    padding-left: 4px;
+}
+
+/* icon dan text settings */
+div.container > div.left-bar > div.menu-bar > div.icon-bar > div.settings:hover > div.garis-settings{
+    position: absolute;
+    height: 25px;
+    border-left: 6px solid #9275e0;
+}
+
+div.container > div.left-bar > div.menu-bar > div.icon-bar > div.settings > img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+div.container > div.left-bar > div.menu-bar > div.icon-bar > div.settings > a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: -15px;
+    padding-left: 4px;
+}
+
+/* ----------------Pengaturan display---------------- */
+div.display {
+    width: 800px;
+    height: 50px;
+    background-color:#596E79;
+}
+
+/* Pengaturan tulisan farhanCode */
+div.display > div.header-bar > h2.farhan-code {
+    color: #F6FA70;
+    line-height: 15px;
+    margin-left: 10px;
+}
+
+/*---------------PENGATURAN KURSUSNYA------------- */
+div.display > div.main-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div.display > div.main-content > div.course {
+    margin-top: 45px;
+    margin-left: 70px;
+    border: 2px solid red;
+    width: 150px;
+    height: 150px;
+    background-color: #ffae0086;
+}
+
+/* KURSUS C++ */
+div.display > div.main-content > div.course > div.cpp {
+    position: relative;
+}
+
+div.display > div.main-content > div.course > div.cpp > img {
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+}
+
+div.display > div.main-content > div.course > div.cpp > p {
+    background-color: red;
+    color: #ffff;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+/* KURSUS JAVA */
+div.display > div.main-content > div.course > div.java {
+    position: relative;
+}
+
+div.display > div.main-content > div.course > div.java > img {
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+}
+
+div.display > div.main-content > div.course > div.java > p {
+    background-color: red;
+    color: #ffff;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+/* KURSUS HTML */
+div.display > div.main-content > div.course > div.html {
+    position: relative;
+}
+
+div.display > div.main-content > div.course > div.html > img {
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+}
+
+div.display > div.main-content > div.course > div.html > p {
+    background-color: red;
+    color: #ffff;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+/* KURSUS JAVASCRIPT */
+div.display > div.main-content > div.course > div.javascript {
+    position: relative;
+}
+
+div.display > div.main-content > div.course > div.javascript > img {
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+}
+
+div.display > div.main-content > div.course > div.javascript > p {
+    background-color: red;
+    color: #ffff;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+/* KURSUS PYTHON */
+div.display > div.main-content > div.course > div.python {
+    position: relative;
+}
+
+div.display > div.main-content > div.course > div.python > img {
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+}
+
+div.display > div.main-content > div.course > div.python > p {
+    background-color: red;
+    color: #ffff;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+/* KURSUS PHP */
+div.display > div.main-content > div.course > div.php {
+    position: relative;
+}
+
+div.display > div.main-content > div.course > div.php > img {
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+}
+
+div.display > div.main-content > div.course > div.php > p {
+    background-color: red;
+    color: #ffff;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.3em;
+}
